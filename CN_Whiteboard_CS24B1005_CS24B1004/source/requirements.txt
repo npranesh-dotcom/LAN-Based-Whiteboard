@@ -1,0 +1,4 @@
+# Server and client use only the Python standard library (socket, threading,
+# json, tkinter). System package for the GUI on Ubuntu: sudo apt install python3-tk
+pillow>=9.0        # optional: "Export PNG" in the client (PostScript export works without it)
+pyinstaller>=6.0   # optional: building standalone executables
